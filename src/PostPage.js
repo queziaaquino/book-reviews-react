@@ -12,16 +12,16 @@ const PostPage = ({ posts, handleDelete }) => {
                         <p className="postDate">{post.datetime}</p>
                         <p className="postBody">{post.body}</p>
                         <button onClick={() => handleDelete(post.id)}>
-                            Delete Post
+                            Deletar
                         </button>
                     </>
                 }
                 {!post &&
                     <>
-                        <h2>Post Not Found</h2>
-                        <p>Well, that's disappointing.</p>
+                        <h2>Publicação não encontrada</h2>
+                        <p>Que pena :/</p>
                         <p>
-                            <Link to='/'>Visit Our Homepage</Link>
+                            <Link to='/'>Visite Nossa Página Inicial</Link>
                         </p>
                     </>
                 }

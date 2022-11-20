@@ -3,9 +3,9 @@ const NewPost = ({
 }) => {
     return (
         <main className="NewPost">
-            <h2>New Post</h2>
+            <h2>Nova Publicação</h2>
             <form className="newPostForm" onSubmit={handleSubmit}>
-                <label htmlFor="postTitle">Title:</label>
+                <label htmlFor="postTitle">Título:</label>
                 <input
                     id="postTitle"
                     type="text"
@@ -13,14 +13,14 @@ const NewPost = ({
                     value={postTitle}
                     onChange={(e) => setPostTitle(e.target.value)}
                 />
-                <label htmlFor="postBody">Post:</label>
+                <label htmlFor="postBody">Resenha:</label>
                 <textarea
                     id="postBody"
                     required
                     value={postBody}
                     onChange={(e) => setPostBody(e.target.value)}
                 />
-                <button type="submit">Submit</button>
+                <button type="submit">Enviar</button>
             </form>
         </main>
     )

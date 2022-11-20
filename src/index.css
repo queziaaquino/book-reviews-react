@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
   margin: 0;
@@ -12,7 +12,7 @@ html {
 
 body {
   min-height: 100vh;
-  font-family: 'Open Sans', sans-serif;
+  font-family:  'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
@@ -40,7 +40,7 @@ body {
 
 .Header, .Footer {
   width: 100%;
-  background-color: #66d8f5;
+  background-color: #afe8f6;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -63,7 +63,7 @@ body {
 
 .Nav {
   width: 100%;
-  background-color: #333;
+  background-color: rgb(12, 93, 130);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -76,7 +76,7 @@ body {
 }
 
 .searchForm input[type="text"] {
-  font-family: 'Open Sans', sans-serif;
+  font-family:  'Roboto', sans-serif;
   width: 100%;
   min-height: 48px;
   font-size: 1rem;
@@ -102,7 +102,7 @@ body {
   padding: 1rem;
 }
 
-.Nav li:hover, 
+.Nav li:hover,
 .Nav li:focus {
   padding: 1rem;
 }
@@ -112,15 +112,15 @@ body {
   text-decoration: none;
 }
 
-.Nav li:hover, 
-.Nav li:focus, 
-.Nav li:hover a, 
+.Nav li:hover,
+.Nav li:focus,
+.Nav li:hover a,
 .Nav li:focus a  {
   background-color: #eee;
   color: #333;
 }
 
-.Nav li:hover a, 
+.Nav li:hover a,
 .Nav li:focus a {
   cursor: pointer;
 }
@@ -143,7 +143,7 @@ body {
   text-decoration: none;
 }
 
-.Home .post a, 
+.Home .post a,
 .Home .post a:visited {
   color: #000;
 }
@@ -174,9 +174,9 @@ body {
   margin-top: 1rem;
 }
 
-.newPostForm input[type='text'], 
+.newPostForm input[type='text'],
 .newPostForm textarea {
-  font-family: 'Open Sans', sans-serif;
+  font-family:  'Roboto', sans-serif;
   width: 100%;
   min-height: 48px;
   font-size: 1rem;
@@ -200,7 +200,7 @@ body {
   cursor: pointer;
 }
 
-.Missing h2, .PostPage h2, 
+.Missing h2, .PostPage h2,
 .Missing p, .PostPage p {
   margin-bottom: 1rem;
 }
@@ -211,7 +211,7 @@ body {
   border-radius: 0.25rem;
   padding: 0.5rem;
   font-size: 1rem;
-  background-color: red;
+  background-color: rgb(202, 45, 45);
   color: #fff;
   cursor: pointer;
 }
@@ -240,9 +240,9 @@ body {
     text-align: right;
   }
 
-  .Nav li:hover, 
-  .Nav li:focus, 
-  .Nav li:hover a, 
+  .Nav li:hover,
+  .Nav li:focus,
+  .Nav li:hover a,
   .Nav li:focus a  {
     background-color: #eee;
     color: #333;
@@ -252,7 +252,7 @@ body {
     width: 50%;
     padding: .5rem 0;
   }
- 
+
   .searchForm input[type="text"] {
     margin-left: 0.5rem;
   }

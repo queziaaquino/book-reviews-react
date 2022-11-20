@@ -4,19 +4,19 @@ const Nav = ({ search, setSearch }) => {
     return (
         <nav className="Nav">
             <form className="searchForm" onSubmit={(e) => e.preventDefault()}>
-                <label htmlFor="search">Search Posts</label>
+                <label htmlFor="search">Procurar Publicação</label>
                 <input
                     id="search"
                     type="text"
-                    placeholder="Search Posts"
+                    placeholder="Procurar Publicação"
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}
                 />
             </form>
             <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/post">Post</Link></li>
-                <li><Link to="/about">About</Link></li>
+                <li><Link to="/">Início</Link></li>
+                <li><Link to="/post">Publicar</Link></li>
+                <li><Link to="/about">Sobre</Link></li>
             </ul>
         </nav>
     )
